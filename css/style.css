@@ -6,7 +6,6 @@
 .titulo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 body {
     background-color: rgb(249, 243, 223);
     color: black;
@@ -105,12 +104,28 @@ body {
 
 .contenedor .widget-1 {
     grid-area: widget-1 ;
-    float: none;
 }
 
 .contenedor .widget-2 {
     grid-area: widget-2 ;
 }
+
+img {
+    width: 250px;
+    border: double 2px #606060;
+    opacity: 0.5;
+}
+img:hover {
+opacity: 1;
+border: solid 2px rgb(255, 255, 255);
+}
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 
 .contenedor .footer {
     background-color: #DBA39A;
@@ -124,7 +139,8 @@ body {
 		grid-template-areas: "header header header"
 						 "contenido contenido contenido"
 						 "sidebar sidebar sidebar"
-						 "widget-1 widget-1 widget-2 "
+						 "widget-1 widget-1 widget-1 "
+                         "widget-2 widget-2 widget-2"
 						 "footer footer footer";
 	}
 }
