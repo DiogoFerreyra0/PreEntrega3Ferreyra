@@ -110,12 +110,40 @@ body {
     grid-area: widget-2 ;
 }
 
-img {
+.img1{
     width: 250px;
     border: double 2px #606060;
     opacity: 0.5;
 }
-img:hover {
+
+.img2{
+    width: 250px;
+    border: double 2px #606060;
+    opacity: 0.5;
+}
+.img3{
+    width: 250px;
+    border: double 2px #606060;
+    opacity: 0.5;
+}
+
+.img4 {
+    width: 250px;
+    border: double 2px #606060;
+    opacity: 0.5;
+}
+.img5 {
+    width: 250px;
+    border: double 2px #606060;
+    opacity: 0.5;
+}
+.img6 {
+    width: 250px;
+    border: double 2px #606060;
+    opacity: 0.5;
+}
+
+.galeria:hover {
 opacity: 1;
 border: solid 2px rgb(255, 255, 255);
 }
